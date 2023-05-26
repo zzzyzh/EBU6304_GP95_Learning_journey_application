@@ -64,4 +64,9 @@ If you have any question or suggestions for improvement, please contact our cont
 
 ## To-do List
 
+- [ ] Visualising Grades with charts 
+- [ ] Record course syllabus and knowledge gained
+- [ ] Record teacher information
+
+
 
