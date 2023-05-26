@@ -54,7 +54,7 @@ Our **Learning Journey Application** including $6$ main functions:
   - Haotian Yu
   - Bingyao Li
   - Yuqing Cui
-  - Yixuan Gong
+  - Yixuan Gou
 
 If you have any question or suggestions for improvement, please contact our contributors via email as following:
 - r.lin@se20.qmul.ac.uk
