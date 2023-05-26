@@ -33,6 +33,8 @@ Else, if you want to compile and run this project in **cmd**, you can reference 
 
 `java pro/Main`
 
+We use Junit to test our code. Please ensure that you have Maven installed on your computer.
+
 ### Functions
 
 Our **Learning Journey Application** including $6$ main functions:
