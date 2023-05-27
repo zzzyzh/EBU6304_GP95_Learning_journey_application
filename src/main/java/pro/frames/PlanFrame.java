@@ -52,7 +52,7 @@ public class PlanFrame extends BaseFrame{
         //creates add button
         JButton addButton = new JButton("ADD+");
         addButton.setFont(new Font("Arial", Font.PLAIN, 12)); 
-        addButton.setPreferredSize(new Dimension(70, 30)); 
+        addButton.setPreferredSize(new Dimension(80, 30));
         addButton.setBackground(Color.BLUE);
         addButton.setForeground(Color.WHITE);
         addButton.setOpaque(true);

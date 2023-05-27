@@ -1,11 +1,13 @@
 package pro.frames;
 
+import pro.entities.DDL;
 import pro.entities.Plan;
 import pro.utils.CSVProcessor;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 
 /**
  * A class to display frame for user adding, modifying or deleting a plan
@@ -229,6 +231,10 @@ public class ModifyPlanFrame extends BaseFrame{
                     that.boxToCanlander(yearComboBox.get(0), monthComboBox.get(0), dayComboBox.get(0), hourComboBox, minuteComboBox),
                     that.boxToCanlander(yearComboBox.get(1), monthComboBox.get(1), dayComboBox.get(1), hourComboBox1, minuteComboBox1)
                 ));
+
+                //sorts all tasks by due time
+                Comparator<Plan> comparator = Comparator.comparing(Plan::getStartTime);
+                arrayList.sort(comparator);
 
                 //writes back to file
                 csvProcessor.writeData(arrayList.toArray());
